@@ -68,4 +68,12 @@
         app:layout_constraintVertical_bias="0.681"
         app:srcCompat="@drawable/list" />
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="86dp"
+        android:layout_height="69dp"
+        app:srcCompat="@drawable/doctoer"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="554dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
