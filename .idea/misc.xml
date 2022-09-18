@@ -4,6 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/activity_test00000.xml" value="0.19583333333333333" />
+        <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/activity_test_layer.xml" value="0.1111111111111111" />
+        <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/activity_test_order.xml" value="0.25" />
+        <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/activity_view_orders.xml" value="0.25" />
+        <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/order_medicines.xml" value="0.22" />
+        <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/test.xml" value="0.165625" />
+        <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/test2.xml" value="0.14" />
+        <entry key="..\:/MAD/MAD_2nd-Year/app/src/main/res/layout/test222.xml" value="0.165625" />
       </map>
     </option>
   </component>
