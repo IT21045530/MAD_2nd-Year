@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:backgroundTint="#3F51B5"
+            android:text="  Update"
+            android:textColor="#FBFAFA"
+            android:textColorHint="#F8F5F5"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023" />
+
+        <LinearLayout
+            android:layout_width="296dp"
+            android:layout_height="33dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="180dp"
+                android:layout_height="46dp"
+                android:layout_weight="1"
+                android:text="@string/textView19"
+                android:textColor="#3F51B5"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="97dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="176dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="@string/textView24"
+                tools:layout_editor_absoluteX="178dp"
+                tools:layout_editor_absoluteY="97dp" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:layout_editor_absoluteX="327dp"
+                tools:layout_editor_absoluteY="97dp" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="295dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/editText8"
+            android:textColor="#8A8888"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="150dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textView16"
+            android:textColor="#3F51B5"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="203dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="294dp"
+            android:layout_height="37dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="@string/editText5"
+            android:textColor="#858484"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textView17"
+            android:textColor="#3F51B5"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="284dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="291dp"
+            android:layout_height="38dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/editText4"
+            android:textColor="#858484"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textView29"
+            android:textColor="#3F51B5"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="372dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="299dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/editTextTextPassword"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="517dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="297dp"
+            android:layout_height="26dp"
+            android:text="@string/textView30"
+            android:textColor="#3F51B5"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="470dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="296dp"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/editTextTextPassword2"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="402dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="296dp"
+            android:layout_height="54dp"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/button5"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="628dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="356dp"
+            android:layout_height="45dp"
+            android:text="I agree to the Tems of Services and privecy Policy"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="571dp" />
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

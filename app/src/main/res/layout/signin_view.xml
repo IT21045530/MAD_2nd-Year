@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IT211.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="391dp"
+            android:layout_height="43dp"
+            android:background="#3F51B5"
+            android:backgroundTint="#3F51B5"
+            android:text="  Sign In"
+            android:textColor="#FBFAFA"
+            android:textColorHint="#F8F5F5"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            app:srcCompat="@drawable/whatsapp_image_2022_10_23_at_3_34_22_pm"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="310dp"
+            android:layout_height="52dp"
+            android:text="@string/textView9"
+            android:textColor="#ACA8A8"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#C80303"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="userName ex : david"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="335dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textView11"
+            android:textColor="#AF0404"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="386dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/editText2" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="144dp"
+            android:layout_height="28dp"
+            android:text="@string/textView12"
+            android:textColor="#9E9A9A"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="483dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="296dp"
+            android:layout_height="54dp"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/button2"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="530dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="133dp"
+            android:layout_height="54dp"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/button4"
+            android:onClick="getSignUp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="616dp" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

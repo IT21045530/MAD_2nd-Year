@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "849076407492",
+    "project_id": "royalppharmacy",
+    "storage_bucket": "royalppharmacy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849076407492:android:68687aaa7860178563cd91",
+        "android_client_info": {
+          "package_name": "com.example.royalpharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849076407492-je6irqvcihc19gtnoa1m7772p5405ru6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.royalpharmacy",
+            "certificate_hash": "e6cfbb63a23f0965d97625288d0b5eacf9e20c25"
+          }
+        },
+        {
+          "client_id": "849076407492-0f37m4hfn894cbu7e44v8ljr876tkr18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuWYjdXk73By5j6L4gwpBzo8clZwbrzVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849076407492-0f37m4hfn894cbu7e44v8ljr876tkr18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

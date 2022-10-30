@@ -1,0 +1,62 @@
+<resources>
+<string name="app_name">RoyalPharmacy</string>
+<string name="textView7">Reserve Your Oder</string>
+    <string name="add_medicine_order">Add Medicine Order</string>
+<string name="textView2">ID</string>
+<string name="textView3">Name</string>
+    <string name="textViewvv">Order Medicines</string>
+<string name="textView4">Age</string>
+<string name="textView6">Date</string>
+<string name="textView5">Doctors Receipt</string>
+<string name="textView8">Upload Receipt</string>
+<string name="button7">View Resevation</string>
+<string name="button8">Reserve</string>
+<string name="button5">Update</string>
+<string name="button">Delete</string>
+
+<string name="editText">Enter Name</string>
+<string name="button3">VIEW</string>
+
+<string name="textView9">Hi there! Nice ti see you again.</string>
+<string name="textView10">Email</string>
+<string name="editText1">example@email.com</string>
+<string name="textView11">Password</string>
+<string name="editText2">Your Password</string>
+<string name="textView12">Forgot Password?</string>
+<string name="button2">Sign in</string>
+<string name="button4">Sign Up</string>
+
+<string name="textView19">Name</string>
+<string name="textView24">Doctor</string>
+<string name="editText8">Your Name</string>
+<string name="textView16">Mobile Number</string>
+<string name="editText5">Your Mobile Number</string>
+<string name="textView17">Email</string>
+<string name="editText4">Your Email Address</string>
+<string name="textView29">Password</string>
+<string name="editTextTextPassword2">Your Password</string>
+<string name="textView30">Confirm Password</string>
+<string name="editTextTextPassword">Your Password</string>
+<string name="button6">Sign Up</string>
+    <string name="text1">Happiness begins with good health</string>
+    <string name="textView31">Medicine Name</string>
+    <string name="textView32">Medicine Request Date</string>
+    <string name="tba_doctor">Doctor</string>
+    <string name="btn_vacc_details">Medicine Details</string>
+    <string name="btn_mynotes">NOTES</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="tba_mynotes">My Notes</string>
+    <string name="txt_date">Date</string>
+    <string name="txt_about">About</string>
+    <string name="txt_descript">Description</string>
+    <string name="btn_newnote">New note</string>
+    <string name="btn_update">UPDATE NOTE</string>
+    <string name="btn_delete">DELETE NOTE</string>
+    <string name="tba_addnotes">Add notes</string>
+    <string name="tba_update">Update notes</string>
+    <string name="txt_date2">Date</string>
+    <string name="txt_about2">About</string>
+    <string name="txt_descript2">Description</string>
+    <string name="btn_update1">UPDATE</string>
+    <string name="tba_vacc_request">Details of Medicine Request</string>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IT213.MedicineRequests">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tba_vacc_request"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#004E63"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:title="@string/tba_vacc_request"
+        app:titleTextColor="@color/white" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="315dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#004E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:text="001" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="44dp"
+                android:layout_height="56dp"
+                android:text="Shevon" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:text="2022.08.14" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Panadol" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:text="002" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:text="Henuka" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="2022.08.14" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="121dp"
+                android:layout_height="match_parent"
+                android:text="Panadol" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="86dp"
+                android:layout_height="62dp"
+                android:text="003" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:text="Pasindu" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="79dp"
+                android:layout_height="match_parent"
+                android:text="2022.08.14" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="Vitamin D" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213"
+        app:srcCompat="@drawable/image1nn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

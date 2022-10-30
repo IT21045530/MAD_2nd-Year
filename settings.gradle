@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()// Warning: this repository is going to shut down soon
+        jcenter()
+    }
+}
+rootProject.name = "RoyalPharmacy"
+include ':app'
